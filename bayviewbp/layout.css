@@ -92,3 +92,18 @@ ul {
 	margin-top: 30px;
 	padding-bottom:20px;
 }
+.spcl {
+	margin-left: auto;
+	margin-right: auto;
+}
+.lnks {
+	margin-left: 20px;
+	margin-right: 20px;
+	margin-top: 30px;
+	padding-bottom:40px;
+}
+.lnk {
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 50px;
+}
