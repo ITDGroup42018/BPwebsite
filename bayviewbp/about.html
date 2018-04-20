@@ -10,7 +10,7 @@
 	</head>
 	<body>
 		<header>
-			<img src="img/banner_mk3.png" alt="Bayview BP" class="img-fluid flwd">
+			<img src="img/banner_mk4.png" alt="Bayview BP" class="img-fluid flwd">
 			<div class="container">
 				<nav class="navbar navbar-expand-lg navbar-light mr-auto">
 					<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -78,6 +78,21 @@
 						<img src="img/services.jpg" alt="What our shop looks like" class="img-fluid mx-auto d-block">
 					</div>
 				</div>
+				<!---This part of the code should be active when Bayview BP is hiring. Otherwise, encapsulate the code in a comment.-->
+				
+				<div class="row abt">
+					<div class="col-md-6 offset-md-3">
+					<form id="hire" name="hire" method="post">
+						<legend>We're Hiring.&nbsp;Enter your name and phone.&nbsp;We will contact you.</legend>
+						<label>Name</label>
+						<input type="text" name="name" id="name"></input>
+						<label>Number</label>
+						<input type="tel" name="phone" id="number" minlength="7" maxlength="10" placeholder="(nnn) nnn-nnnn"></input></br></br>
+						<button type="submit">Submit</button>&nbsp;&nbsp;<button type="reset">Reset</button>
+					</form></br></br>
+					</div>
+				</div>
+				
 			</div>
 		</div>
 		<footer>
