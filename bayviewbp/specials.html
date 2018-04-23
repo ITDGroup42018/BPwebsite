@@ -50,24 +50,40 @@
 					</div>
 				</div>
 				<div class="row abt">
-					<div class="col-md-4 offset-md-4 col-sm-6">
-						<img src="img/special_placeholder.jpg" alt="Special Placeholder" class="img-fluid mx-auto spcl">
+					<div class="col-lg-4 col-md-6 col-sm-8 spcl" id="Sepcial1">
+						<h3>Oil Change Special</h3>
+						<p>Print it and enjoy your discount, show it at your next oil change</p>
+						<img src="img/Couponoilchange.jpg" alt="" class="img-fluid mx-auto spcl"/>
+						<button class="button" onclick="printContent('Sepcial1')">Print your discount</button>
 					</div>
-				</div>
-				<div class="row abt">
-					<div class="col-md-4 offset-md-4 col-sm-6">
-						<img src="img/special_placeholder.jpg" alt="Special Placeholder" class="img-fluid mx-auto spcl">
+				
+					<div class="col-lg-4 col-md-6 col-sm-8 spcl" id="Sepcial2">
+						<h3> State Inspection Special</h3>
+						<p>Print it and enjoy your discount, show it at your next next state inspection</p>
+						<img src="img/CouponState.jpg" alt="" class="img-fluid mx-auto spcl"/>
+						<button class="button" onclick="printContent('Sepcial2')">Print your discount</button>
 					</div>
-				</div>
-				<div class="row abt">
-					<div class="col-md-4 offset-md-4 col-sm-6">
-						<img src="img/special_placeholder.jpg" alt="Special Placeholder" class="img-fluid mx-auto spcl">
+					<div class="col-lg-4 col-md-6 col-sm-8 spcl" id="Sepcial3">
+						<h3>Military Special</h3>
+						<p>Print it and enjoy your discount, show you military ID to be valid</p>
+						<img src="img/CouponMilitary.jpg" alt="" class="img-fluid mx-auto spcl"/>
+						<button class="button" onclick="printContent('Sepcial3')">Print your discount</button>
 					</div>
 				</div>
 				<br/>
 				<br/>
 			</div>
 		</div>
+		
+		<script>
+			function printContent(div){
+				var restorpage = document.body.innerHTML;
+				var printcontent = document.getElementById(div).innerHTML;
+				document.body.innerHTML = printcontent;
+				window.print();
+				document.body.innerHTML = printcontent;
+			}
+		</script>
 		
 		<footer>
 			<div class="container">
