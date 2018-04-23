@@ -115,3 +115,11 @@ ul {
 	margin-right: 0px;
 	height: auto;
 }
+.button {
+	background-color: #ffc72c;
+	color: #029949;
+	padding: 12px 28px;
+	text-align: center;
+	font-size: 18px;
+	float: flex;
+}
